@@ -106,6 +106,7 @@ The accuracy score and report below were generated after using the EasyEnsembleC
 
 ![Easy Ensemble](Images/easy_ensemble_report.png)
 
+## Summary 
 
-
+Based on the results, it is evident that the Easy Ensemble Classifier machine learning model had the highest balanced accuracy score, 93%. The accuracy score lets us known how much percent of time the model is correct. The other machine learning models had accuracy scores between 53% - 67%, with the combinatorial approach having the lowest score. The Easy Ensemble model also showed a high recall (sensitivity) for predicting high risk loans. The recall score lets us know how many high risk loans were correctly identified. The other models had lower recall scores for the high risk category, between 34% to 70%. For these reasons I would suggest the Easy Ensemble machine learning model. 
 
