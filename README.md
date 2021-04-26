@@ -16,11 +16,64 @@ In this analysis we used machine learning techniques to build and evaluate model
 
 The accuracy score and report below were generated after using the RandomOverSampler algorithm.
 
--Balanced Accuracy Score: 65%
--
-
+* Balanced Accuracy Score: 65%
+* Precision Score for High Risk: 1%
+* Precision Score for Low Risk: 100%
+* Recall Score for High Risk: 62%
+* Recall Score for Low Risk: 68%
 
 ![Balanced Accuracy Score](Images/accuracy_score1.png)
 
 ![Naive Random Oversampling](Images/naive_random_oversampling_report.png)
+
+---
+
+### SMOTE Oversampling 
+
+The accuracy score and report below were generated after using the SMOTE algorithm.
+
+* Balanced Accuracy Score: 64%
+* Precision Score for High Risk: 1%
+* Precision Score for Low Risk: 100%
+* Recall Score for High Risk: 63%
+* Recall Score for Low Risk: 66%
+
+![Balanced Accuracy Score](Images/accuracy_score2.png)
+
+![SMOTE Oversampling](Images/SMOTE_oversampling_report.png)
+
+---
+
+### Undersampling
+
+The accuracy score and report below were generated after using the ClusterCentroids algorithm.
+
+* Balanced Accuracy Score: 64%
+* Precision Score for High Risk: 1%
+* Precision Score for Low Risk: 100%
+* Recall Score for High Risk: 61%
+* Recall Score for Low Risk: 45%
+
+![Balanced Accuracy Score](Images/accuracy_score3.png)
+
+![Undersampling](Images/undersampling_report.png)
+
+---
+
+### Combination (Over and Under) Sampling
+
+The accuracy score and report below were generated after using the SMOTEENN algorithm.
+
+* Balanced Accuracy Score: 53%
+* Precision Score for High Risk: 1%
+* Precision Score for Low Risk: 100%
+* Recall Score for High Risk: 70%
+* Recall Score for Low Risk: 57%
+
+![Balanced Accuracy Score](Images/accuracy_score4.png)
+
+![Combo Sampling](Images/combo_sampling_report.png)
+
+
+
 
