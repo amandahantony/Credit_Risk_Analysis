@@ -14,9 +14,13 @@ In this analysis we used machine learning techniques to build and evaluate model
 
 ### Naive Random Oversampling 
 
-The report below was generated after using the RandomOverSampler algorithm.
+The accuracy score and report below were generated after using the RandomOverSampler algorithm.
 
+-Balanced Accuracy Score: 65%
 -
+
+
+![Balanced Accuracy Score](Images/accuracy_score1.png)
 
 ![Naive Random Oversampling](Images/naive_random_oversampling_report.png)
 
