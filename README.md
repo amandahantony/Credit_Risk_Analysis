@@ -74,6 +74,38 @@ The accuracy score and report below were generated after using the SMOTEENN algo
 
 ![Combo Sampling](Images/combo_sampling_report.png)
 
+---
+
+### Balanced Random Forest Classifier 
+
+The accuracy score and report below were generated after using the BalancedRandomForestClassifier algorithm.
+
+* Balanced Accuracy Score: 67%
+* Precision Score for High Risk: 73%
+* Precision Score for Low Risk: 100%
+* Recall Score for High Risk: 34%
+* Recall Score for Low Risk: 100%
+
+![Balanced Accuracy Score](Images/accuracy_score5.png)
+
+![Balanced Forest](Images/balanced_forest_report.png)
+
+---
+
+### Easy Ensemble Adaboost Classifier 
+
+The accuracy score and report below were generated after using the EasyEnsembleClassifier algorithm.
+
+* Balanced Accuracy Score: 93%
+* Precision Score for High Risk: 7%
+* Precision Score for Low Risk: 100%
+* Recall Score for High Risk: 91%
+* Recall Score for Low Risk: 94%
+
+![Balanced Accuracy Score](Images/accuracy_score6.png)
+
+![Easy Ensemble](Images/easy_ensemble_report.png)
+
 
 
 
