@@ -12,3 +12,11 @@ In this analysis we used machine learning techniques to build and evaluate model
 
 ## Results 
 
+### Naive Random Oversampling 
+
+The report below was generated after using the RandomOverSampler algorithm.
+
+-
+
+![Naive Random Oversampling](Images/naive_random_oversampling_report.png)
+
